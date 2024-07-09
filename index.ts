@@ -39,8 +39,4 @@ await app
   })
   .register(fastifyMiddie);
 app.use(handler);
-app.listen({ port }, (err, addr) => {
-  if (err) {
-    console.error(err);
-    process.exit(1);
-  }
+);
