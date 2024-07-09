@@ -44,5 +44,3 @@ app.listen({ port }, (err, addr) => {
     console.error(err);
     process.exit(1);
   }
-  console.log("Listening on %s", addr);
-});
